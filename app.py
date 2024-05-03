@@ -27,7 +27,7 @@ def main():
         res = do_mul(a,b)   
     
     print("result",res)
-    
+
 if __name__=="__main__":
     main()
             
