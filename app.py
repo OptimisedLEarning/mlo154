@@ -1,10 +1,14 @@
 from cal_f import   do_add, do_sub
 
+#  multiply 
+from mul import do_mul
+
 def main():
     print ("welcome to my claculator")
     print(""" enter  option 
           "1" = add
           "2" = sub 
+          "3" = mul 
           
            """)
     option= input("select the fuction ")
@@ -18,6 +22,9 @@ def main():
         
     elif option =="2":
         res = do_sub(a,b)   
+        
+    elif option =="3":
+        res = do_mul(a,b)   
     
     print("result",res)
     
