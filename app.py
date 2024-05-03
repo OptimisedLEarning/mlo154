@@ -2,13 +2,14 @@ from cal_f import   do_add, do_sub
 
 #  multiply 
 from mul import do_mul
-
+from area import area_rec
 def main():
     print ("welcome to my claculator")
     print(""" enter  option 
           "1" = add
           "2" = sub 
           "3" = mul 
+          "4" = area
           
            """)
     option= input("select the fuction ")
@@ -25,6 +26,9 @@ def main():
         
     elif option =="3":
         res = do_mul(a,b)   
+    
+    elif option =="4":
+        res = area_rec(a,b)   
     
     print("result",res)
 
