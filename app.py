@@ -2,7 +2,7 @@ from cal_f import   do_add, do_sub,do_div
 
 #  multiply 
 from mul import do_mul
-
+from area import area_rec
 def main():
     print ("welcome to my claculator")
     print(""" enter  option 
