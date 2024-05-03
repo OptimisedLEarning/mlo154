@@ -1,4 +1,4 @@
-from cal_f import   do_add, do_sub
+from cal_f import   do_add, do_sub,do_div
 
 #  multiply 
 from mul import do_mul
@@ -7,8 +7,9 @@ def main():
     print ("welcome to my claculator")
     print(""" enter  option 
           "1" = add
-          "2" = sub 
-          "3" = mul 
+          "2" = substraction 
+          "3" = multiply 
+          "4" = division
           
            """)
     option= input("select the fuction ")
@@ -25,6 +26,8 @@ def main():
         
     elif option =="3":
         res = do_mul(a,b)   
+    elif option =="4":
+        res = do_div(a,b)
     
     print("result",res)
 
